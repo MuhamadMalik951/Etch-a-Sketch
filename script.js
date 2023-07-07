@@ -1,7 +1,7 @@
 document.body.setAttribute('style',
 ' font-family:Arial, Helvetica, sans-serif ; font-size: 16px; display: flex; flex-direction: row-reverse; justify-content: center; align-items: center ; height: 1000px; ');
-const colors = ['orange','#E07DE5','#FC6621','#DE1CDA','#42CADB',];
-const finalColor = colors[Math.floor(Math.random() * 4)];
+const colors = ['orange','#A7CE7A','#FC6621','#DE1CDA','#42CADB','#3ECBDA'];
+const finalColor = colors[Math.floor(Math.random() * 5)];
 const bigContainer = document.createElement('div');
 bigContainer.classList.add('big');
 bigContainer.setAttribute('style','; background: tranparent; height: 1000px; width: 760px; display: flex; flex-direction: column-reverse; align-items: center; justify-content: flex-end ; gap: 20px; ');
